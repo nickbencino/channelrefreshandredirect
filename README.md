@@ -5,7 +5,7 @@ Refresh a channels video page and redirect when a video is added (requires tampe
 1. Install TamperMonkey (available on most browsers)
 2. Visit the video page of the channel you want to monitor. (https://www.youtube.com/channel/UC8wXpVINhSENNMCiXYMAROg/videos)
 3. Click the TamperMonkey icon and select "create new script"
-4. Select all the test and paste in the code below
+4. Select all the text in the editor window and replace it with the code below
 
 
             // ==UserScript==
