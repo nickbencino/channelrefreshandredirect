@@ -25,7 +25,9 @@ Refresh a channels video page and redirect when a video is added (requires tampe
                  const latestStoredVid = localStorage.getItem('latest video');
 
                  if (latestVid.innerHTML === latestStoredVid) {
-                   location.reload();
+                   setTimeout(function(){
+                     location.reload();
+                   },5000);
                  } else {
                    localStorage.setItem('latest video', latestVid.innerHTML);
                    window.location.href = latestVid.href;
